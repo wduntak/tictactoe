@@ -1,3 +1,15 @@
+body {
+	text-align: center;
+}
+
+table {
+	margin: 0 auto;
+}
+
+tbody {
+	vertical-align: middle;
+}
+
 td {
 	border: 1px solid black;
 	width: 200px;
