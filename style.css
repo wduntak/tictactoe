@@ -1,19 +1,45 @@
-body {
-	text-align: center;
-}
 
-table {
-	margin: 0 auto;
-}
+		body {
+			font-family: 'Ubuntu', sans-serif;
+			text-align: center;	
+			background: url('space.jpg');
+			color: white;
+		}
+		@media screen and (max-width: 800px) {
+			body {
+				font-size: 1.3em;
+			}
+		}
+		@media screen and (max-width: 700px) {
+			body {
+				font-size: 1.1em;
+			}
+		}
+		@media screen and (max-width: 550px) {
+			body {
+				font-size: 0.8em;
+			}
+		}
+		table {
+			margin: 0 auto;
+			cursor: default;
+			width: 610px;
+			height: 610px;
+		}
+		td {
+			padding: 0;
+			width: 200px;
+			height: 200px;
+			font-size: 8em;
+		}
+		table, td { /* by giving both a 1px border, everything gets a 2px border on all sides */
+			border: 1px solid white;
+		}
 
-tbody {
-	vertical-align: middle;
-}
+		td.win {
+			background-color: #ACD4FF;
+		}
 
-td {
-	border: 1px solid black;
-	width: 200px;
-	height: 200px;
-	text-align: center;
-	font-size: 75px;
-}
+		h1 {
+			color: white;
+		}
